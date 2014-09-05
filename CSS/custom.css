@@ -1,13 +1,337 @@
 
 body {
-background-color: orange;
-color: black;
-text-align: center;
-background-image: url("water3.jpg"); no-repeat center center fixed; 
-background-size: 1370px;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;b
 
+  html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  background: #000;
+}
+}
+
+/*icons*/
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'Zocial', sans-serif;
+}
+
+body {
+  background: #black;
+}
+
+.icons {
+  margin-top: 50px;
+  text-align: center;
+}
+.icons .social-icon {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  font-size: 2.5em;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+.icons .twitter {
+  background: #55acee;
+  text-shadow: 0px 0px #2795e9, 1px 1px #2795e9, 2px 2px #2795e9, 3px 3px #2795e9, 4px 4px #2795e9, 5px 5px #2795e9, 6px 6px #2795e9, 7px 7px #2795e9, 8px 8px #2795e9, 9px 9px #2795e9, 10px 10px #2795e9, 11px 11px #2795e9, 12px 12px #2795e9, 13px 13px #2795e9, 14px 14px #2795e9, 15px 15px #2795e9, 16px 16px #2795e9, 17px 17px #2795e9, 18px 18px #2795e9, 19px 19px #2795e9, 20px 20px #2795e9, 21px 21px #2795e9, 22px 22px #2795e9, 23px 23px #2795e9, 24px 24px #2795e9, 25px 25px #2795e9, 26px 26px #2795e9, 27px 27px #2795e9, 28px 28px #2795e9, 29px 29px #2795e9, 30px 30px #2795e9, 31px 31px #2795e9, 32px 32px #2795e9, 33px 33px #2795e9, 34px 34px #2795e9, 35px 35px #2795e9;
+}
+.icons .facebook {
+  background: #3b5998;
+  text-shadow: 0px 0px #2d4373, 1px 1px #2d4373, 2px 2px #2d4373, 3px 3px #2d4373, 4px 4px #2d4373, 5px 5px #2d4373, 6px 6px #2d4373, 7px 7px #2d4373, 8px 8px #2d4373, 9px 9px #2d4373, 10px 10px #2d4373, 11px 11px #2d4373, 12px 12px #2d4373, 13px 13px #2d4373, 14px 14px #2d4373, 15px 15px #2d4373, 16px 16px #2d4373, 17px 17px #2d4373, 18px 18px #2d4373, 19px 19px #2d4373, 20px 20px #2d4373, 21px 21px #2d4373, 22px 22px #2d4373, 23px 23px #2d4373, 24px 24px #2d4373, 25px 25px #2d4373, 26px 26px #2d4373, 27px 27px #2d4373, 28px 28px #2d4373, 29px 29px #2d4373, 30px 30px #2d4373, 31px 31px #2d4373, 32px 32px #2d4373, 33px 33px #2d4373, 34px 34px #2d4373, 35px 35px #2d4373;
+}
+.icons .stumbleupon {
+  background: #f74425;
+  text-shadow: 0px 0px #e12808, 1px 1px #e12808, 2px 2px #e12808, 3px 3px #e12808, 4px 4px #e12808, 5px 5px #e12808, 6px 6px #e12808, 7px 7px #e12808, 8px 8px #e12808, 9px 9px #e12808, 10px 10px #e12808, 11px 11px #e12808, 12px 12px #e12808, 13px 13px #e12808, 14px 14px #e12808, 15px 15px #e12808, 16px 16px #e12808, 17px 17px #e12808, 18px 18px #e12808, 19px 19px #e12808, 20px 20px #e12808, 21px 21px #e12808, 22px 22px #e12808, 23px 23px #e12808, 24px 24px #e12808, 25px 25px #e12808, 26px 26px #e12808, 27px 27px #e12808, 28px 28px #e12808, 29px 29px #e12808, 30px 30px #e12808, 31px 31px #e12808, 32px 32px #e12808, 33px 33px #e12808, 34px 34px #e12808, 35px 35px #e12808;
+}
+.icons .google-plus {
+  background: #dd4b39;
+  text-shadow: 0px 0px #c23321, 1px 1px #c23321, 2px 2px #c23321, 3px 3px #c23321, 4px 4px #c23321, 5px 5px #c23321, 6px 6px #c23321, 7px 7px #c23321, 8px 8px #c23321, 9px 9px #c23321, 10px 10px #c23321, 11px 11px #c23321, 12px 12px #c23321, 13px 13px #c23321, 14px 14px #c23321, 15px 15px #c23321, 16px 16px #c23321, 17px 17px #c23321, 18px 18px #c23321, 19px 19px #c23321, 20px 20px #c23321, 21px 21px #c23321, 22px 22px #c23321, 23px 23px #c23321, 24px 24px #c23321, 25px 25px #c23321, 26px 26px #c23321, 27px 27px #c23321, 28px 28px #c23321, 29px 29px #c23321, 30px 30px #c23321, 31px 31px #c23321, 32px 32px #c23321, 33px 33px #c23321, 34px 34px #c23321, 35px 35px #c23321;
+}
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300");
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font: 12px/1 'Open Sans', sans-serif;
+  color: #444;
+  background: black;
+  overflow-x: hidden;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: radial-gradient(ellipse at top, #ffffff, #bdc3c7 80%);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  box-sizing: border-box;
+  height: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#desc {
+  padding: 3rem;
+  font-weight: 100;
+}
+#desc h1 {
+  font-size: 2rem;
+  margin-left: 4rem;
+  margin-bottom: 3rem;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#desc h1:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -5rem;
+  width: 4rem;
+  height: 6rem;
+  background-color: #2c3e50;
+?
+}
+
+.modal {
+  transition: all 300ms ease;
+  box-sizing: border-box;
+  position: fixed;
+  top: 10%;
+  right: 3rem;
+  width: 18rem;
+  height: 35rem;
+  background-color: #2c3e50;
+  color: white;
+  transform: perspective(300px) rotateY(-5deg);
+  transform-origin: middle right;
+  -webkit-font-smoothing: antialiased;
+  backface-visibility: hidden;
+}
+.modal:after {
+  content: '';
+  width: 100%;
+  height: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: -3rem;
+  background-image: radial-gradient(ellipse, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 60%);
+}
+.modal .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.modal figcaption {
+  padding: 2rem;
+}
+.modal figcaption p {
+  line-height: 1.2rem;
+}
+
+.closed {
+  transition: all 300ms ease;
+  right: -25rem;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+}
+
+input[data-function*='swipe'] {
+  position: absolute;
+  opacity: 0;
+}
+
+label[data-function*='swipe'] {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+  display: block;
+  width: 42px;
+  height: 42px;
+  font: 42px/42px fontawesome;
+  text-align: center;
+  color: #444;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  transition: transform .3s;
+}
+
+input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
+  transform: translate3d(260px, 0, 0);
+}
+
+.content {
+  flex: 1;
+  padding: 80px 30px;
+  background: #eee;
+  box-shadow: 0 0 5px black;
+  transform: translate3d(0, 0, 0);
+  transition: transform .3s;
+}
+
+input[data-function*='swipe']:checked ~ .content {
+  transform: translate3d(260px, 0, 0);
+}
+/*hamburger
+.sidebar {
+  position: absolute;
+  width: 260px;
+}
+h1, h2 {
+  margin: 30px 0;
+  font-size: 45px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 30px;
+}
+#scroll-animate
+{
+  overflow: hidden;
+}
+
+#scroll-animate-main
+{
+  width: 100%;
+  left: 0;
+  position: fixed;
+}
+
+#heightPage,
+#heightScroll
+{
+  width: 10px;
+  top: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+#heightPage
+{
+  left: 3;
+}
+
+#heightScroll
+{
+  right: 0;
+}
+
+header
+{
+  width: 100%;
+  height: 100%;
+  background: url(http://www.hudsonmarinho.com/lab/header-and-footer-parallax-effect/bg-header.jpg) no-repeat 50% 50%;
+  top: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+footer
+{
+  width: 100%;
+  height: 300px;
+  background: gray;
+  bottom: -300px;
+  position: fixed;
+  z-index: -1;
+}
+
+.content
+{
+  height: 1000px;
+  min-height: 1000px;
+  background: #ededed;
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper-parallax {
+  margin-top: 100%;
+  margin-bottom: 300px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 150px;
+  color: white;
+}
+
+header h1{}
+
+.content h1{
+  line-height: 1000px;
+  color: gray;
+}
+
+footer h1
+{
+  line-height: 300px;
+}
+
+header,
+footer,
+#scroll-animate-main
+{
+  -webkit-transition-property: all;
+     -moz-transition-property: all;
+      transition-property: all;
+
+  -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+     -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+      transition-timing-function: cubic-bezier(0, 0, 0, 1);
 }
