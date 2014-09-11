@@ -3,120 +3,279 @@
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="CSS/custom.css">
+  <link rel="stylesheet" type="text/css" href="CSS/bootstrap.theme.css">
+  <link rel="stylesheet" type="text/css" href="CSS/bootstrap-theme.min">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 	<title></title>
+  <div class="carousel right"
+  <div class="indicator"></div>
+  <div class="wrap">
+    <ul>
+    </ul>
+  </div>
+</div>
 </head>
-
-
 <body>
+<!-- contact links -->
+<div class='social-links'>
+  <a class='social-link' href='#'>
+    <div class='fa fa-dribbble icon'></div>
+    <div class='title'>dribbble</div>
+  </a>
+  <a class='social-link' href='#'>
+    <div class='fa fa-flickr icon'></div>
+    <div class='title'>flickr</div>
+  </a>
+  <a class='social-link' href='#'>
+    <div class='fa fa-dropbox icon'></div>
+    <div class='title'>dropbox</div>
+  </a>
+  <a class='social-link' href='#https://github.com/Dougiemartinez'>
+    <div class='fa fa-github icon'></div>
+    <div class='title'>github</div>
+  </a>
+  <a class='social-link' href="#https://twitter.com/DougiieMartinez">
+    <div class='fa fa-twitter icon'></div>
+    <div class='title'>twitter</div>
+  </a>
+  <a class='social-link' href='#'>
+    <div class='fa fa-tumblr icon'></div>
+    <div class='title'>tumblr</div>
+  </a>
+  <a class='social-link' href='#'>
+    <div class='fa fa-pinterest icon'></div>
+    <div class='title'>pinterest</div>
+  </a>
+  <a class='social-link' href='#'>
+    <div class='fa fa-instagram icon'></div>
+    <div class='title'>instagram</div>
+  </a>
+  <a class='social-link' href='#'>
+    <div class='fa fa-skype icon'></div>
+    <div class='title'>skype</div>
+  </a>
+</div>
+    <!-- end contact links -->
+<div id="menu">
+    <svg width="75" height="20" id="menu-btn" onclick="this.setAttribute('class',(this.getAttribute('class')=='open')? '': 'open');">
+        <defs>
+            <mask id="mask2" x="0" y="0" width="75" height="20">
+                <!--M -->
+                <path fill="#555" d="M15.541,19V7.78c0-0.555,0-2.964,0-4.737h-0L10.256,19H7.744L2.459,3.07H2.407
+  c0,1.746,0,4.155,0,4.71V19H0V0h3.636L9,16.063h0L14.389,0H18v19H15.541z" />
+                <!-- E -->
+                <!-- <rect x="22" y="0" fill="#222" width="3" height="19" />-->
+                <rect x="22" y="0" fill="#fff" width="15" height="3" />
+                <rect x="22" y="8" fill="#fff" width="15" height="3" />
+                <rect x="22" y="16" fill="#fff" width="15" height="3" />
+                <!-- N -->
+                <path fill="#555" d="M53.114,0h2.474v19H52.72L43.114,3.652h-0.053V19h-2.474V0h3.027l9.446,15.349h0.053V0z" />
+                <!-- U -->
+                <path fill="#555" d="M75,0v12.014C75,15.804,72.558,19,67.327,19C62.204,19,60,15.804,60,12.349V0h2.575v11.652
+  c0,4.022,2.522,5.131,4.832,5.131c2.363,0,5.018-1.058,5.018-5.08V0H75z" />
+            </mask>
+        </defs>
+        <linearGradient id="grad1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="60" y2="0">
+            <stop offset="0" style="stop-color:#FF6161">
+                <animate attributeName="offset" values="0.33;0.33;0.66" dur="3s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="1" style="stop-color:#61FF83">
+                <animate attributeName="offset" values="0.33;0.66;0.66" dur="3s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="0" style="stop-color:#FF6161">
+                <animate attributeName="offset" values="0.33;0.66;0.66" dur="3s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+        <rect x="0" y="0" width="75" height="100" fill="url(#grad1)" style="stroke: none; mask: url(#mask2)"></rect>
+    </svg>
+    <ul id="menu-list">
+        <li class="menu-item">Home</li>
+        <li class="menu-item">App Academy</li>
+        <li class="menu-item">Projects</li>
+        <li class="menu-item">Douglas Martinez</li>
+    </ul>
+</div>
+
+<div id="container">
+  <p><a href="http://exisweb.net/mobile-menu-abtest"></a>
+  
+</div>
+<link href='http://fonts.googleapis.com/css?family=Monda|Ultra' rel='stylesheet' type='text/css'>
+  
+  <div id="nav_wrap">
+    <h1 id="logo"></h1>
+    <nav role='navigation'>
+      <a href="#" id="home">Home</a><!--
+      --><a href="#" id="about">About Me</a><!--
+      --><a href="#" id="clients">Projects</a><!--
+      --><a href="#" id="contact">AppAcademy</a>
+    </nav>  
+    <div id="social">
+      <div class="icon-facebook-sign"></div>
+      <div class="icon-twitter-sign"></div>
+    </div>--/social-->
+  </div>--/nav_wrap-->
+  
+  <section id="homesec" class="">
+  <div id="">
+      LOGO<br />
+  <div id="mainsocial">
+  <div class="icon-facebook-sign"></div>
+  <div class="icon-twitter-sign"></div>  
+  </div>
+  </div>
+  </section><!--/home-->
+  
+  <section id="aboutsec" class="bodysec">
+  <div id="copy">
+      <h1>Home</h1>
+        <p>My name is Douglas Martinez, I am 15 years old. I got to Pasadena High School and im in the App Academy.   <p></div>
+        </section>
+        
+        <section id="clientsec" class="bodysec">
+        <div id="copy">
+        <h1></h1>
+            <div class="center large"><div class="icon-quote-left"></div> My name is Douglas Martinez, I am 15 years old. I got to Pasadena High School and im in the App Academy. <div class="icon-quote-right"></div></div>
+            <div id="iconrow">
+            <span class="icon-stack">
+<i class="icon-circle icon-stack-base"></i>
+<i class="icon-lightbulb icon-light"></i>
+</span>
+               <span class="icon-stack">
+<i class="icon-circle icon-stack-base"></i>
+<i class="icon-calendar icon-light"></i>
+</span>
+              
+ <span class="icon-stack">
+  <i class="icon-circle icon-stack-base"></i>
+  <i class="icon-cogs icon-light"></i>
+</span>
+             <-- <div class="icon-lightbulb inner-icon hoverblk"></div>-->
+             <-- <div class="icon-calendar hoverblk"></div>-->
+<--              <div class="icon-cogs hoverblk"></div>
+-->     </div>
+        </div>          
+        </section>
+        <section id="contactsec">
+        <div id="copy">
+            <h1>Projects</h1>
+            <p>This is the first project for our class.</p>
+        </div>
+        </section>
 <div class='wrapper'>
 
-  <input data-function='swipe' id='swipe' type='checkbox'>
-  <label data-function='swipe' for='swipe'>&#xf0c9;</label>
+<input data-function='swipe' id='swipe' type='checkbox'>
+<label data-function='swipe' for='swipe'>&#xf0c9;</label>
 
   <div class='content'>
-    <h1>Sport Shop</h1>
+    <h1></h1>
     <h2></h2>
   </div>
- <div class='sidebar'>
+  <div class='sidebar'>
     <nav>
-      <li>About Me</li>
-      <li>Shoes</li>
-      <li>Jerseys</li>
-      <li>Fan Apparel</li>
-    </nav>
-  </div>
-<div id="scroll-animate">
-  <div id="scroll-animate-main">
-    <div class="wrapper-parallax">
+    <li>About Me</li>
+     <p> for fun il like to play games and and hangout with friends. Soccer is my favorite sport but i sometimes watch Foobal and Baseball.</p>
+ </nav>
+ </div>
+ <div id="scroll-animate">
+ <div id="scroll-animate-main">
+ <div class="wrapper-parallax">
       <header>
-        <h1>About Us</h1>
+        <h1></h1>
       </header>
-
       <section class="content">
-        <h1>Shop</h1>
+        <h1></h1>
       </section>
-
       <footer>
-        <h1>Contact Us</h1>
-
+      <h1>Contact</h1>
       </footer>
-    </div>
-  </div>
 </div>
 </div>
-<div class="icons">  
+</div>
+</div>
+<-- <div class="icons">  
   <a target="_blank" href="twitter.com/creative_punch" class="zocial-twitter twitter social-icon"></a>
   <a target="_blank" href="https://www.facebook.com" class="fontawesome-facebook facebook social-icon"></a>
   <a target="_blank" href="stumbleupon.com/stumbler/CreativePunch" class="zocial-stumbleupon stumbleupon social-icon"></a>
   <a target="_blank" href="https://plus.google.com/+CreativepunchNetBlog" class="zocial-googleplus google-plus social-icon"></a>
 </div>
-  <div  class="Douglas-Martinez"> 
+<div  class="Douglas-Martinez">  -->
      
      <h2>Douglas Martinez</h2>
     
-  </div>
+</div>
 
   <div id="more-me">
-  </div>
-  <script type="text/javascript" href="/js.js"></script>
-  <h1>Popup/Modal Windows without JavaScript</h1>
+</div>
+<script type="text/javascript" href="js.js"></script>
+  <h1>My Story</h1>
 <div id="wrapper">
   <p><a class="button" href="#popup1">Douglas</a></p>
   <p><a class="button" href="#popup2">My Life</a></p>
 </div>
 
 <div id="popup1" class="overlay">
-  <div class="popup">
+<div class="popup">
     <h2>Info box</h2>
     <a class="close" href="#">&times;</a>
-    <div class="content">
-      <p>This is done totally without JavaScript. Just HTML and CSS.</p>
-    </div>
-  </div>
+<div class="content">
+      <p>MY NAME IS DOUGLAS MARTINEZ</p>
+</div>
+</div>
 </div>
 
 <div id="popup2" class="overlay light">
   <a class="cancel" href="#"></a>
-  <div class="popup">
-    <h2>What the what?</h2>
-    <h3>(click outside the popup to close)</h3>
-    <div class="content">
+<div class="popup">
+   <h2>HELLO</h2>
+   <h3>BYE</h3>
+   <div class="content">
       <p></p>
-    </div>
-  </div>
 </div>
+</div>
+</div>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,700,900,300,100' rel='stylesheet' type='text/css'>
+<div class="overlay">
+  <div class="wrap">
+   <h1>Scrolling Form</h1>
+<input type="text" placeholder="Username">
+<input type="email"placeholder="Password">
+    <input type="submit" value="Sign In">
+    <a href="#"><i class="fa fa-question"></i>Forgotten Password</a>
+    <a href="#"><i class="fa fa-user"></i>Create an Account</a>
+  </div>
+</div> -->
 </body>
 <div class="header">
-  
-  <div class="nav">
+<div class="nav">
     <ul>
       <li ><a class="active" href="#">Home</a></li>
-      <li><h1><a href="#">About Us</a><h1></li>
-      <li><h1><a href="#">Shop</a><h1></li>
+      <li><h1><a href="#"></a><h1></li>
+      <li><h1><a href="#"></a><h1></li>
       <li><h1><a href="#">Me</a><h1></li>
     </ul>
-  </div>
-  
-  <div class="nav1">
+</div>
+<div class="nav1">
     <ul>
        <li>
          <a href="#">
-           <i class="fa fa-envelope"></i>
+          <i class="fa fa-envelope"></i>
+         </a>
+       </li>
+       <li>
+         <a href="#">
+          <i class="fa fa-cog"></i>
          </a>
       </li>
       <li>
-        <a href="#">
-          <i class="fa fa-cog"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          
+        <a href="#">  
         </a>
       </li>
     </ul>
   </div>
-  
   <div class="search_box">
     <form >
       <input type="text" class="search_input" placeholder="Search"/>
@@ -130,35 +289,17 @@
   </div>
   <div class="modal">
   <a href="#" class="close"><i class="ion-close"></i></a>
-  
   <figure>
-    <img src="http://placekitten.com/g/350/250" alt="" />
-    
+    <img src="http://placekitten.com/g/350/250" alt="" />   
     <figcaption>
       <h1>l</h1>
     </figcaption>
   </figure>
   
 </div>
-
-
-
-
-
-
-
-
-
-
-
 <div id="desc">
   <h1></h1>
   <a href="#" class="open "><i class="ion-toggle-filled"></i> <span>Close Modal</span></a>
 </div>
-
-
-
-<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 </div>
 </html>					
